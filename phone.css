@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    top: 0px;
+   box-sizing: border-box;
+}
+body{
+    background-color: #f2eeeb;
+}
+.navbar{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    border-bottom: 3px solid #ff3800;
+    background-color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#skate{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #ff3800;
+    font-size: 19px;
+    font-family: system-ui;
+}
+#warehouse{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 40px;
+    justify-content: center;
+    font-family: system-ui;
+}
+.right{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: system-ui;
+    height: 100%;
+    width: 100%;
+}
+.menu li:hover{
+    color: #ff3800;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.list li{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: system-ui;
+    justify-content: center;
+    align-items: center;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li a:hover{
+    color: #ff3800;
+    padding: 1px;
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.sidebar{
+    display: none
+}
+.content{
+    width: 100%;
+    height: 50%;
+}
+.skates{
+    display: grid;
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+    grid-template-columns: 1fr 3fr;
+    background-color: white;
+}
+.skates:hover{
+    cursor: pointer;
+    padding: 4px;
+}
+.skates img{
+    width: 150%;
+    height: 100%;
+}
+.div2{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+.skates h3{
+    margin: 20px 10px;
+    padding: 0px 15px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.skates h2{
+    text-align: right;
+    color: #ff3800;
+    margin: auto 20px;
+    font-family: system-ui;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skates Warehouse</title>
+    <link rel="stylesheet" href="style.css" media="screen and (min-width:1000px)">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:1000px)">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="left">
+            <div id="skate"><h1>SKATE</h1></div>
+            <div id="warehouse"><h3>WAREHOUSE</h3></div>
+        </div>
+        <div class="right">
+            <div class="menu">
+                    <li>Cart</li>
+                    <li>Wish List</li>
+            </div>
+            <div class="list">
+                <li><a href="">SEARCH</a></li>
+                <li><a href="">SUPPORT</a></li>
+                <li><a href="">GIFT CARD</a></li>
+                <li><a href="">LOGIN</a></li>
+            </div>
+        </div>
+</header>
+<main class="main">
+    <div class="sidebar">
+            <li onclick="hide()">SKATEBOARDS</li>
+               <ul class="secondmenu" id="menu2" type="none">
+                <li>Decks</li>
+                <li>Complete Sketchboards</li>
+                <li>Build Your Own</li>
+                <li>Trucks</li>
+               </ul>
+            <li>LONGBOARDS</li>
+            <li>ACCESSORIES</li>
+            <li>BRANDS</li>
+            <li id="filter">FILTERS</li>
+    </div>
+    <div class="content">
+        <div class="skates">
+            <img src="ALWWCMP_1.png" alt="">
+            <div class="div2">
+            <h3 id="name">Almost Wonder Woman Color Mid Complete</h3>
+            <h2 id="price">$74.99</h2>
+            </div>
+        </div>
+        <div class="skates">
+            <img src="rs.php.png" alt="">
+            <div class="div2">
+            <h3 id="name">Almost Harley Quinn Complete</h3>
+            <h2 id="price">$123.00</h2>
+            </div>
+        </div>
+        <div class="skates">
+            <img src="ALWWCMP_1.png" alt="">
+            <div class="div2">
+            <h3 id="name">Almost Harley Quinn Complete</h3>
+            <h2 id="price">$64.99</h2>
+            </div>
+        </div>
+        <div class="skates">
+            <img src="rs.php.png" alt="">
+            <div class="div2">
+            <h3 id="name">Almost Organic Complete</h3>
+            <h2 id="price">$69.99</h2>
+            </div>
+        </div>
+        <div class="skates">
+            <img src="ALWWCMP_1.png" alt="">
+            <div class="div2">
+            <h3 id="name">Almost Wonder Woman Color Mid Complete</h3>
+            <h2 id="price">$89.99</h2>
+            </div>
+        </div>
+        <div class="skates">
+            <img src="rs.php.png" alt="">
+            <div class="div2">
+            <h3 id="name">Bind Matte OG Yellow/Green Complete</h3>
+            <h2 id="price">$84.99</h2>
+            </div>
+        </div>
+    </div>
+</main>
+<script>
+    function hide(){
+        let menu =document.getElementById("menu2");
+        if(menu.style.display!="none"){
+            menu.style.display="none";
+        }
+        else{
+            menu.style.display="block";
+        }
+    }
+</script>
+</body>
+</html>
